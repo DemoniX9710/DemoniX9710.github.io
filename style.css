@@ -72,3 +72,11 @@ a:hover {
   15% { clip: rect(50px, 9999px, 90px, 0); }
   100% { clip: rect(0, 9999px, 0, 0); }
 }
+.shadow img {
+  width: 50%;
+  height: auto;
+  max-width: 300px; /* ou la taille que tu veux */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
