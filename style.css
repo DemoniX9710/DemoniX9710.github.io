@@ -72,3 +72,10 @@ a:hover {
   15% { clip: rect(50px, 9999px, 90px, 0); }
   100% { clip: rect(0, 9999px, 0, 0); }
 }
+/* Pour que les images s'adaptent à leur boîte */
+.shadow img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 200px; /* Ajuste ou enlève cette ligne selon le rendu souhaité */
+}
